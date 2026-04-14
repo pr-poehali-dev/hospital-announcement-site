@@ -7,8 +7,8 @@ export default function Index() {
       {/* Header */}
       <header className="border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-6 py-5 flex items-start gap-4">
-          <div className="w-12 h-12 bg-[#1a3a6b] rounded-sm flex items-center justify-center flex-shrink-0 mt-0.5">
-            <Icon name="Plus" size={22} className="text-white" />
+          <div className="w-12 h-12 bg-red-600 rounded-sm flex items-center justify-center flex-shrink-0 mt-0.5">
+            <span className="text-white text-2xl font-black leading-none">!</span>
           </div>
           <div>
             <h1 className="text-lg font-bold leading-tight text-gray-900 tracking-tight">
