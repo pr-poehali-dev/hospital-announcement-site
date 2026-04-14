@@ -14,9 +14,7 @@ export default function Index() {
             <h1 className="text-lg font-bold leading-tight text-gray-900 tracking-tight">
               Важная информация по больничному листу!
             </h1>
-            <p className="text-sm text-gray-500 mt-0.5">
-              Муниципальное учреждение здравоохранения
-            </p>
+
           </div>
         </div>
       </header>
