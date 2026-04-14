@@ -23,11 +23,19 @@ export default function Index() {
 
       {/* Announcement Banner */}
       <section className="border-b border-gray-200 bg-[#fdf8f0]">
-        <div className="max-w-4xl mx-auto px-6 py-4 flex items-center gap-3">
-          <Icon name="AlertCircle" size={16} className="text-[#c47b00] flex-shrink-0" />
-          <p className="text-sm text-[#7a4f00] font-medium">
-            Режим работы регистратуры: пн–пт 07:30 – 18:00, сб 08:00 – 14:00
-          </p>
+        <div className="max-w-4xl mx-auto px-6 py-5 flex gap-3">
+          <Icon name="AlertCircle" size={16} className="text-[#c47b00] flex-shrink-0 mt-0.5" />
+          <div className="text-sm text-[#7a4f00] space-y-2 leading-relaxed">
+            <p>
+              Уважаемые пациенты! Если у Вас есть вопросы по поводу закрытия или продления больничного листа, позвоните в Call-центр по номеру{" "}
+              <a href="tel:88432722795" className="font-semibold underline underline-offset-2 hover:text-[#5a3900] transition-colors">8-343-272-27-95</a>
+              {" "}или зайдите на сайт больницы ЦГКБ №3 и перейдите в раздел «Задать вопрос». Так мы быстро решим Вашу проблему.
+            </p>
+            <p>
+              Портал «Госуслуги» не связан с рабочей программой поликлиники, в связи с этим информация по больничному листу может приходить с задержкой.
+            </p>
+            <p className="font-medium">Спасибо за внимание и понимание!</p>
+          </div>
         </div>
       </section>
 
